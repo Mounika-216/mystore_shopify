@@ -1,0 +1,185 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Themekit template theme",
+    "theme_version": "1.0.0",
+    "theme_author": "Shopify",
+    "theme_documentation_url": "https://github.com/Shopify/themekit",
+    "theme_support_url": "https://github.com/Shopify/themekit/issues"
+  },
+  {
+    "name":"Header",
+    "settings":[
+      {
+        "id":"topbar",
+        "type":"text",
+        "label":"Topbar phone number",
+        "default":"555-123-4567"
+      },
+      {
+        "id":"topbar_text",
+        "type":"text",
+        "label":"Topbar text",
+        "default":"shipping on above $300"
+      },
+      {
+        "id":"header_logo",
+        "type":"image_picker",
+        "label":"header logo"
+       
+      }
+    ]
+  },
+  {
+    "name":"Footer Service",
+    "settings":[
+      {
+       "type":"header",
+       "content":"First Column"
+      },
+      {
+        "id":"footer_first_column_icon",
+        "type":"text",
+        "label":"Footer First Column Icon"
+      },
+      {
+        "id":"footer_first_column_top_text",
+        "type":"text",
+        "label":"Footer First Column Top Text"
+      },
+      {
+        "id":"footer_first_column_bottom_text",
+        "type":"text",
+        "label":"Footer First Column Bottom Text"
+      },
+      {
+        "type":"header",
+        "content":"Second Column"
+       },
+       {
+         "id":"footer_second_column_icon",
+         "type":"text",
+         "label":"Footer second Column Icon"
+       },
+       {
+         "id":"footer_second_column_top_text",
+         "type":"text",
+         "label":"Footer second Column Top Text"
+       },
+       {
+         "id":"footer_second_column_bottom_text",
+         "type":"text",
+         "label":"Footer second Column Bottom Text"
+       },
+       {
+        "type":"header",
+        "content":"third Column"
+       },
+       {
+         "id":"footer_third_column_icon",
+         "type":"text",
+         "label":"Footer third Column Icon"
+       },
+       {
+         "id":"footer_third_column_top_text",
+         "type":"text",
+         "label":"Footer third Column Top Text"
+       },
+       {
+         "id":"footer_third_column_bottom_text",
+         "type":"text",
+         "label":"Footer third Column Bottom Text"
+       }
+    ]
+  },
+  {
+   "name":"footer_main",
+    "settings":[
+      {
+        "type":"header",
+        "content":"footer logo" 
+      },
+      {
+        "id":"footer_logo",
+        "type":"image_picker",
+        "label":"Footer Logo"
+      },
+      {
+        "id":"footer_blurb",
+        "type":"text",
+        "label":"Footer blurb"
+      },
+
+      {
+        "type":"header",
+        "content":"footer social media icons"
+       },
+       {
+        "id":"footer_facebook_icon",
+        "type":"text",
+        "label":"Footer facebook Icon"
+      },
+      {
+        "id":"footer_facebook_icon_link",
+        "type":"text",
+        "label":"Footer facebook Icon link"
+      },
+      {
+        "id":"footer_twitter_icon",
+        "type":"text",
+        "label":"Footer twitter Icon"
+      },
+      {
+        "id":"footer_twitter_icon_link",
+        "type":"text",
+        "label":"Footer twitter Icon link"
+      },
+      {
+        "id":"footer_instagram_icon",
+        "type":"text",
+        "label":"Footer instagram Icon"
+      },
+      {
+        "id":"footer_instagram_icon_link",
+        "type":"text",
+        "label":"Footer instagram Icon link"
+      },
+      {
+        "id":"footer_pinintrest_icon",
+        "type":"text",
+        "label":"Footer pinintrest Icon"
+      },
+      {
+        "id":"footer_pinintrest_icon_link",
+        "type":"text",
+        "label":"Footer pinintrest Icon link"
+      },
+      {
+        "id":"footer_vimeo_icon",
+        "type":"text",
+        "label":"Footer vimeo Icon"
+      },
+      {
+        "id":"footer_vimeo_icon_link",
+        "type":"text",
+        "label":"Footer vimeo Icon link"
+      },
+      {
+        "type":"header",
+        "content":"footer newsletter " 
+      },
+      {
+        "id":"footer_newsletter_top_text ",
+        "type":"text",
+        "label":"Footer  newsletter top text"
+      },
+      {
+        "id":"footer_newsletter_bottom_text ",
+        "type":"text",
+        "label":"Footer  newsletter bottom text"
+      }
+
+
+    ]
+  }
+]

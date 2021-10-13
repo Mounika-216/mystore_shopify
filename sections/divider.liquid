@@ -1,0 +1,24 @@
+<section style="background: url({{section.settings.divider_image|img_url:'2048x'}})" class="divider">
+    <div class="container"> 
+      <div class="row">
+        {{section.settings.divider_text}}
+      </div>
+    </div>
+  </section>
+ {% schema %}
+   {   
+    "name":"divider",
+    "settings":[
+      {
+        "id":"divider_image",
+        "type":"image_picker",
+        "label":"divider_image"
+       },
+        {
+          "id":"divider_text",
+           "type":"text",
+           "label":"Divider Text"
+        }
+    ]
+   }
+ {% endschema %}
